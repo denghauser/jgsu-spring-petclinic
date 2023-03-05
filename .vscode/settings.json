@@ -1,3 +1,21 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "files.associations": {
+        "[Jj]enkinsfile*": "groovy"
+    },
+    "jenkins-runner.jobs": {
+        "pipeline-ide": {
+            "runWith": "pipelines-8080",
+            "name": "pipeline-ide",
+            "isDefault": true
+        }
+    },
+    "jenkins-runner.hostConfigs": {
+        "pipelines-8080": {
+            "url": "http://laptopvndietmar:8080",
+            "user": "dietmar",
+            "password": "Marianne013",
+            "useCrumbIssuer": true
+        }
+    }
 }
